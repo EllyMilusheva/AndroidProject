@@ -51,7 +51,7 @@ public class AddActivity extends AppCompatActivity {
                     Request request = new Request.Builder()
                             .url("https://location-to-address.p.rapidapi.com/v1/geocode/reverse?lon=" + lon + "&lat=" + lat + "&limit=1&lang=en")
                             .get()
-                            .addHeader("X-RapidAPI-Key", "d839dce6cemshc3c7a99c977970ep1b7d07jsnd48a90d36cd1")//your key, please register to rapidapi
+                            .addHeader("X-RapidAPI-Key", "")//your key, please register to rapidapi
                             .addHeader("X-RapidAPI-Host", "location-to-address.p.rapidapi.com")
                             .build();
 
